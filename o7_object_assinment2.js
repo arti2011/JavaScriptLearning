@@ -1,69 +1,61 @@
+console.log(`SBI Bank`);
+const sbiBank ={
+  BankName:"State Bank Of India",
+  location:"Phandharpur",
+  accountNo:123476980543,
+  ifsc:"SBIK0012356",
+  interestRate:"7%",
 
- 
-
-function showDetails() {
-    const sbiBank = {
-        bankName : "State Bank Of India",
-        location : "Phandharpur",
-        accountNo : 6251286785663,
-        IFSC : "SBIN0000335",
-        interestRate : "7%",
-        add : function showDetails(){
-            console.log(`Please visit again always welcome`);
-        }
-    }
-    console.log(`---------- SBI Bank ----------`);
+  showDetails:function(){
     console.log(sbiBank);
-    }
-    showDetails();
-    console.log(``);
-    
-    function showDetails1(){
-    const axisBank = {
-        bankName : "Axis Bank",
-        location : "Pandharpur",
-        accountNo : 354233665588,
-        IFSC : "AXIS00556",
-        interestRate : "5%",
-        add : function showDetails(){
-            console.log(`Please visit again always welcome`);
-        }
-    }
-    console.log(`---------- Axis Bank ----------`);
+  }
+
+}
+sbiBank.showDetails();
+console.log(``);
+console.log(`Axis Bank`);
+const axisBank ={
+  BankName:"Axis Bank",
+  location:"Pune",
+  accountNo:765436980543,
+  ifsc:"AXIP0017646",
+  interestRate:"6%",
+
+  showDetails:function(){
     console.log(axisBank);
-    }
-    showDetails1();
-    console.log(``);
-    
-    function showDetails2(){
-        const hdfcBank = {
-            bankName : "HDFC Bank",
-            location : "Pune",
-            accountNo : 649733665588,
-            IFSC : "HDFC0000935",
-            interestRate : "8%",
-            add : function showDetails(){
-                console.log(`Please visit again always welcome`);
-            }
-        }
-        console.log(`---------- HDFC Bank ----------`);
-        console.log(hdfcBank);
-        }
-        showDetails2();
-        console.log(``);
-    
-        function showDetails3(){
-            const yesBank = {
-                bankName : "YES Bank",
-                location : "Mumbai",
-                accountNo : 554544555335,
-                IFSC : "YB0000495",
-                interestRate : "9%",
-                add : function showDetails(){
-                    console.log(`Please visit again always welcome`);
-                }
-            }
-            console.log(`---------- YES Bank ----------`);
-            console.log(yesBank);
-            }
-            showDetails3();
+  }
+
+}
+axisBank.showDetails();
+console.log(``);
+
+console.log(`HDFC Bank`);
+const hdfcBank ={
+  BankName:"HDFC Bank ",
+  location:"mumbai",
+  accountNo:006534768,
+  ifsc:"HDFCM0012966",
+  interestRate:"8.2%",
+
+  showDetails:function(){
+    console.log(hdfcBank);
+  }
+
+}
+hdfcBank.showDetails();
+console.log(``);
+console.log(`YES Bank`);
+const yesBank ={
+  BankName:"YES Bank",
+  location:"Solapur",
+  accountNo:984276980543,
+  ifsc:"YESN001764667",
+  interestRate:"8%",
+
+  showDetails:function(){
+    console.log(yesBank);
+  }
+
+}
+yesBank.showDetails();
+console.log(``);

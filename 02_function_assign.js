@@ -5,12 +5,12 @@ function display(){
 }
 display();
 console.log("=============Question 2nd================")
-function personalDetails(){
-    console.log(" First name = Arti");
-    console.log(" Last name = Salunkhe");
-    console.log("Shri Vithal Education & Research Institue's College of Engineering Phandharpur");
+function personalDetails(firstName,lastName,collegeName){
+    console.log(" First name:",firstName);
+    console.log(" Last name:",lastName);
+    console.log("college name:",collegeName);
 }
-personalDetails();
+personalDetails("Arti","Salunkhe","Sveri's college phandharpur");
 console.log("==============Question 3rd===================")
 
 function swapValuesDude(value1,value2){
@@ -39,6 +39,6 @@ function addThreeValues(val1,val2,val3){
     return "addition"
 }
 var addition=addThreeValues(10.23,600,40);
-var addition=addThreeValues("Hello","Good","Morning");
+var addition=addThreeValues(" Hello"," Good"," Morning");
 
 

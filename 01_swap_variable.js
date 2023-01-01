@@ -1,25 +1,45 @@
-console.log("Assignment Swap Two Variable");
-console.log("Before Swap");
-var name1="sweety";
-var name2="cutie";
-console.log(name1,name2);
-var temp=name1;
-name1=name2;
-name2=temp;
-console.log("After Swap");
-console.log(name1,name2);
-console.log("==============================")
+console.log("============================== Part 1 ==============================");
+var myNumber=100;
+var yourNumber=300;
 
-console.log("Assignment Swap Three Variable");
+console.log("------------------------- Before Swapping -------------------------");
+console.log(myNumber,yourNumber);
+
+ var temp=100;
+ var myNumber=300;
+ var yourNumber=100;
+
+ console.log("------------------------- After Swapping -------------------------");
+ console.log(myNumber,yourNumber);
+
+
+
+console.log("============================== Part 2 ==============================");
+var sweety="Sweety";
+var cutie="Cutie";
+console.log("------------------------- Before Swapping -------------------------");
+console.log(sweety,cutie);
+
+
+var temp="Sweety";
+var sweety="Cutie";
+var cutie="Sweety";
+
+console.log("------------------------- After Swapping -------------------------");
+console.log(sweety,cutie);
+
+console.log("============================== Part 3 ==============================");
 
 var num1=100;
 var num2=200;
 var num3=300;
-console.log("Before Swap");
-console.log(100,200,300);
-console.log("After Swap");
+
+console.log("------------------------- Before Swapping -------------------------");
+console.log(num1,num2,num3);
+
 var temp=num1;
-num1=num2;
-num2=num3;
-num3=temp;
+var num1=num2;
+var num2=num3;
+var num3=temp;
+console.log("------------------------- After Swapping -------------------------");
 console.log(num1,num2,num3);

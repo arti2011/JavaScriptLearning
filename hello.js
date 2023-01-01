@@ -1,2 +1,0 @@
-consol.log("Hello Arti");
-

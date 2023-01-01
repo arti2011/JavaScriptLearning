@@ -52,3 +52,8 @@ let divisible=function(num){
 divisible(12);
 divisible(35);
 divisible(11);
+
+console.log(string);
+var string = "I am Arti"
+console.log(`Given string is: ${string}`);
+console.log(string[4]);
