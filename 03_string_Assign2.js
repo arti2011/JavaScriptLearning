@@ -48,3 +48,16 @@ function stringHandsOn() {
   );
 }
 stringHandsOn();
+console.log(``);
+let expr = "     Hey I am using whattsup keep it up    "
+console.log(`Given string is:${expr}`);
+var length =expr.length
+console.log(`length of string is:${length}`);
+var myExpr = expr.trim();
+console.log(expr.trim());
+//console.log(expr.toLocaleLowerCase());
+//console.log(expr.endsWith(`Hey`));
+//console.log(expr.startsWith("Hey"));
+
+
+

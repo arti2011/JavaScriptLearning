@@ -15,3 +15,4 @@ function countCharA(string) {
 countCharA(" I Am learning javascript,The language of internet");
 console.log("=========================2.===================================")
 countCharA(" My favourite movie is LAggAn");
+// 

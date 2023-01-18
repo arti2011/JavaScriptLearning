@@ -6,6 +6,7 @@ var interview=function(gradScore,hscScore,sscScore,name){
     console.log(result);
 }
 interview(80,86,90,"Arti");
+console.log(`==================================================================================================`);
 
 var interview=function(gradScore,hscScore,sscScore,name){
     var name="Apurva";
@@ -15,6 +16,7 @@ var interview=function(gradScore,hscScore,sscScore,name){
     console.log(result);
 }
 interview(70,65,55,"Apurva");
+console.log(`====================================================================================================`);
 
 var interview=function(gradScore,hscScore,sscScore,name){
     var name="Abhiraj";
@@ -24,6 +26,7 @@ var interview=function(gradScore,hscScore,sscScore,name){
     console.log(result);
 }
 interview(60,79,88,"Abhiraj");
+console.log(`=====================================================================================================`);
 
 
 

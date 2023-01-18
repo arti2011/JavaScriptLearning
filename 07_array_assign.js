@@ -46,3 +46,14 @@ console.log(`8.Selecting last three elements using length property`);
 let res = fruits_seasonal.slice(-3);
 console.log(res);
 console.log(``);
+
+
+const number = [34,54,67,87,98,21,23,43]
+console.log(number);
+console.log(``);
+console.log(`total length of array is`,number.length);
+console.log(`first element of array is`,number[0]);
+console.log(`last element of array is`,number.length-1);
+console.log(`Adding 43 before 34 element`);
+number.unshift(43);
+console.log(number);

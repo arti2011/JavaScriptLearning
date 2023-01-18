@@ -62,7 +62,7 @@ const datta = {
   delete person.weight;
   console.log(person);
 
-  console.log(`=== Creating an empty object====`);
+  console.log(`==== Creating an empty object=====`);
 const mobile = {
 
 }
@@ -116,18 +116,17 @@ const billgates = {
     name: "Billgates",
     company: "Microsoft",
     valuation: "130B $",
+    //console.log(`========== in operator ================`);
+   // let isAvailable = "height" in billgates;
     
-    console.log(`========== in operator ================`);
-    let isAvailable = "height" in billgates;
-    
-    if (isAvailable) {
-       delete billgates.height;
-       console.log(`"height" property is deleted successfully`);
-    } else{
-       console.log(`"height" property not deleted as it is available inside object`);
-    }
+    //if (isAvailable) {
+    //   delete billgates.height;
+    ///   console.log(`"height" property is deleted successfully`);
+  //  } else{
+   //    console.log(`"height" property not deleted as it is available inside object`);
+   // }
    
-}
+//}//
 //console.log(Object.entries(billgates));
 //console.log(Object.keys(billgates));
 //console.log(Object.values(billgates));
